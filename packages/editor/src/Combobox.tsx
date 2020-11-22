@@ -141,6 +141,7 @@ const Combobox: <T extends string | number>(
           alignItems: 'center',
         }}>
         <Input
+          sx={{ fontFamily: 'inherit' }}
           {...props}
           ref={input}
           role="combobox"
