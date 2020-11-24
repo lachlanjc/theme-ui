@@ -28,6 +28,10 @@ exports[`renders 1`] = `
 }
 
 .emotion-3 {
+  font-family: inherit;
+}
+
+.emotion-4 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -46,10 +50,9 @@ exports[`renders 1`] = `
   background-color: transparent;
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-appearance: none;
   -moz-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   width: 32px;
   height: 32px;
@@ -59,11 +62,11 @@ exports[`renders 1`] = `
   margin-left: -32px;
 }
 
-.emotion-5 {
+.emotion-6 {
   pointer-events: none;
 }
 
-.emotion-6 {
+.emotion-7 {
   left: 0;
   right: 0;
   top: 100%;
@@ -102,7 +105,7 @@ exports[`renders 1`] = `
       aria-expanded={false}
       aria-haspopup="true"
       aria-owns="beep-popup"
-      className="emotion-3"
+      className="emotion-3 emotion-4"
       id="beep"
       name="beep"
       onBlur={[Function]}
@@ -114,12 +117,12 @@ exports[`renders 1`] = `
     />
     <button
       aria-label="Open"
-      className="emotion-4"
+      className="emotion-5"
       onClick={[Function]}
       tabIndex={-1}
     >
       <svg
-        className="emotion-5"
+        className="emotion-6"
         height="12"
         viewBox="0 0 16 16"
         width="12"
@@ -135,7 +138,7 @@ exports[`renders 1`] = `
   </div>
   <ul
     aria-label="beep"
-    className="emotion-6"
+    className="emotion-7"
     id="beep-popup"
     role="listbox"
     style={
